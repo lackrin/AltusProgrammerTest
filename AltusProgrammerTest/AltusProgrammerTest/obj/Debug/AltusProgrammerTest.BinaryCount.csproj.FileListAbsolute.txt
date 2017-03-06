@@ -1,0 +1,2 @@
+C:\Users\jharvey\Documents\Visual Studio 2015\Projects\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe.config
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe.config
