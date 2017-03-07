@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AltusProgrammerTest.Core
 {
-    public class Class1
+    class Constants
     {
+        public static readonly char[] Vowels = new char[] { 'a', 'e', 'i', 'o', 'u' };
     }
 }

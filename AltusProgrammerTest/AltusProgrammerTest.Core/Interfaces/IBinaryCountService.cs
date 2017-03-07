@@ -2,5 +2,6 @@
 {
     public interface IBinaryCountService
     {
+        bool NumberCountDown(int num);
     }
 }

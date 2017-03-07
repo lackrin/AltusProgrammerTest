@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4EA2E8D-3362-4A02-A351-396492775238}</ProjectGuid>
+    <ProjectGuid>{76C11DFF-4E2A-4C91-B156-FBD19FBD5B08}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AltusProgrammerTest</RootNamespace>
-    <AssemblyName>AltusProgrammerTest</AssemblyName>
+    <RootNamespace>AltusProgrammerTest.StringConversion</RootNamespace>
+    <AssemblyName>AltusProgrammerTest.StringConversion</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AltusProgrammerTest.Core\AltusProgrammerTest.Core.csproj">
-      <Project>{a468a88b-bb2c-462a-89be-fe3b976f240f}</Project>
+      <Project>{A468A88B-BB2C-462A-89BE-FE3B976F240F}</Project>
       <Name>AltusProgrammerTest.Core</Name>
     </ProjectReference>
   </ItemGroup>

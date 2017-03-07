@@ -4,5 +4,6 @@
     {
         void OutputErrorMessage(string message);
         void OutputMessage(string message);
+        string ReadLine();
     }
 }

@@ -1,0 +1,10 @@
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\AltusProgrammerTest.StringConversion.exe.config
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\AltusProgrammerTest.StringConversion.exe
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\AltusProgrammerTest.StringConversion.pdb
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\AltusProgrammerTest.Core.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\Ninject.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\AltusProgrammerTest.Core.pdb
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\bin\Debug\Ninject.xml
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\obj\Debug\AltusProgrammerTest.StringConversion.csprojResolveAssemblyReference.cache
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\obj\Debug\AltusProgrammerTest.StringConversion.exe
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.StringConversion\obj\Debug\AltusProgrammerTest.StringConversion.pdb

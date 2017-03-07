@@ -1,39 +1,56 @@
 ﻿using System;
-using AltusProgrammerTest.Core.Services;
+using System.Reflection;
+using AltusProgrammerTest.Core.Interfaces;
+using Ninject;
 
 namespace AltusProgrammerTest
 {
-    class Program
+    internal static class Program
     {
-        static void Main()
+        public static void Main()
         {
-            while (true)
+            var loop = true;
+            var kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
+            
+            var consoleService = kernel.Get<IConsoleService>();
+            var binaryCountService = kernel.Get<IBinaryCountService>();
+
+            while (loop)
             {
-                ConsoleService console = new ConsoleService();
-                console.OutputMessage("Enter a Decimal between 0 and 100");
-                var imput = Console.ReadLine();
-                int num;
-                if (int.TryParse(imput, out num))
+                consoleService.OutputMessage("Enter 'Exit' to Close App");
+                consoleService.OutputMessage("Enter a Decimal under 100");
+                var imput = consoleService.ReadLine();
+                if (imput.ToLower() != "exit")
                 {
-                    if (num >= 0 && num <= 100)
+                    int num;
+                    if (int.TryParse(imput, out num))
                     {
-                        try
+                        if (num >= 0 && num < 100)
                         {
-                            Console.WriteLine(_binaryService.BinCount(number));
+                            try
+                            {
+                                consoleService.OutputMessage("Begin Countdown...");
+                                loop = binaryCountService.NumberCountDown(num);
+                            }
+                            catch (Exception e)
+                            {
+                                consoleService.OutputErrorMessage(e.Message);
+                            }
                         }
-                        catch (Exception ex)
+                        else
                         {
-                            ConsoleMessageService.WriteErrorMessage(ex);
+                            consoleService.OutputErrorMessage("Entry is not under 100! Try again");
                         }
                     }
                     else
                     {
-                        console.OutputErrorMessage("Entry is not between 0 and 100! Try again");
+                        consoleService.OutputErrorMessage("Entry is not a Decimal! Try again");
                     }
                 }
                 else
                 {
-                    console.OutputErrorMessage("Entry is not a Decimal! Try again");
+                    loop = false;
                 }
             }
         }

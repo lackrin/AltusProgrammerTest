@@ -44,12 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IStringConversionService.cs" />
+    <Compile Include="Services\StringConversionService.cs" />
     <Compile Include="Services\BinaryCountService.cs" />
     <Compile Include="Services\ConsoleService.cs" />
-    <Compile Include="Interfaces\IBinaryCountService.cs" />
     <Compile Include="Interfaces\IConsoleService.cs" />
+    <Compile Include="Interfaces\IBinaryCountService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

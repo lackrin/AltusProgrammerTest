@@ -16,5 +16,10 @@ namespace AltusProgrammerTest.Core.Services
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(message);
         }
+
+        public string ReadLine()
+        {
+            return Console.ReadLine();
+        }
     }
 }

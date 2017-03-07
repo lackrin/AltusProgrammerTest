@@ -1,0 +1,7 @@
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\bin\Debug\AltusProgrammerTest.Core.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\bin\Debug\AltusProgrammerTest.Core.pdb
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\bin\Debug\Ninject.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\bin\Debug\Ninject.xml
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\obj\Debug\AltusProgrammerTest.Core.csprojResolveAssemblyReference.cache
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\obj\Debug\AltusProgrammerTest.Core.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.Core\obj\Debug\AltusProgrammerTest.Core.pdb

@@ -1,2 +1,12 @@
 C:\Users\jharvey\Documents\Visual Studio 2015\Projects\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe.config
 C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe.config
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe.config
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.exe
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.pdb
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.Core.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\Ninject.dll
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\AltusProgrammerTest.Core.pdb
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\bin\Debug\Ninject.xml
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.BinaryCount.csprojResolveAssemblyReference.cache
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.exe
+G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.pdb
