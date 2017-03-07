@@ -5,11 +5,9 @@ namespace AltusProgrammerTest.Core.Services
 {
     public class BinaryCountService : IBinaryCountService
     {
-        private readonly IConsoleService _consoleService;
-
-        public BinaryCountService(IConsoleService consoleService)
+        public BinaryCountService()
         {
-            _consoleService = consoleService;
+
         }
 
         /// <summary>
@@ -23,13 +21,13 @@ namespace AltusProgrammerTest.Core.Services
             {
                 for (int i = num; i >= 0; i--)
                 {
-                    _consoleService.OutputMessage(NumberToBinary(i));
+                    Console.WriteLine(NumberToBinary(i));
                 }
                 return true;
             }
             catch (Exception e)
             {
-                _consoleService.OutputErrorMessage(e.Message);
+                Console.Error.WriteLine(e.Message);
                 return false;
             }
         }
@@ -55,7 +53,7 @@ namespace AltusProgrammerTest.Core.Services
             }
             catch (Exception e)
             {
-                _consoleService.OutputMessage(e.Message);
+                Console.Error.WriteLine(e.Message);
                 return e.ToString();
             }
         }

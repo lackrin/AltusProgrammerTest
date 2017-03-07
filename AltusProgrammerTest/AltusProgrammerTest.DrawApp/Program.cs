@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Reflection;
 using AltusProgrammerTest.Core.Interfaces;
+using AltusProgrammerTest.Core.Services;
 using Ninject;
 
-namespace AltusProgrammerTest.StringConversion
+namespace AltusProgrammerTest.DrawApp
 {
     internal static class Program
     {
@@ -13,19 +14,24 @@ namespace AltusProgrammerTest.StringConversion
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
 
-            var stringConversionService = kernel.Get<IStringConversionService>();
+            
+            var canvasService = kernel.Get<ICanvasService>();
 
             while (loop)
             {
                 Console.WriteLine("Enter 'Exit' to Close App");
-                Console.WriteLine("Enter any string");
+                Console.WriteLine("Enter an Object to Draw: Line, Circle, Box");
                 var imput = Console.ReadLine();
                 if (imput != null && imput.ToLower() != "exit")
                 {
                     try
                     {
-                        Console.WriteLine("Result is...");
-                        Console.WriteLine(stringConversionService.InspectString(imput));
+                        Console.WriteLine("Drawing...");
+                        Console.WriteLine(canvasService.Draw(imput));
+                        loop = false;
+                        Console.WriteLine("Press Any key to end");
+                        Console.ReadLine();
+
                     }
                     catch (Exception e)
                     {

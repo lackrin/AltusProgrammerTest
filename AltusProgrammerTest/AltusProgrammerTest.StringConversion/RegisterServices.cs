@@ -10,7 +10,7 @@ namespace AltusProgrammerTest.StringConversion
         public override void Load()
         {
             Bind<IStringConversionService>().To<StringConversionService>();
-            Bind<IConsoleService>().To<ConsoleService>();
+            
         }
     }
 }

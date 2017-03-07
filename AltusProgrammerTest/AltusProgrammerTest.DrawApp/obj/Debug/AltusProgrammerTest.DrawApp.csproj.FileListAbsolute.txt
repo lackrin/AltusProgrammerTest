@@ -1,0 +1,10 @@
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\AltusProgrammerTest.DrawApp.exe.config
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\AltusProgrammerTest.DrawApp.exe
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\AltusProgrammerTest.DrawApp.pdb
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\AltusProgrammerTest.Core.dll
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\Ninject.dll
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\AltusProgrammerTest.Core.pdb
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\bin\Debug\Ninject.xml
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\obj\Debug\AltusProgrammerTest.DrawApp.csprojResolveAssemblyReference.cache
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\obj\Debug\AltusProgrammerTest.DrawApp.exe
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest.DrawApp\obj\Debug\AltusProgrammerTest.DrawApp.pdb

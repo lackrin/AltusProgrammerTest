@@ -10,3 +10,5 @@ G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTe
 G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.BinaryCount.csprojResolveAssemblyReference.cache
 G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.exe
 G:\Repositories\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.pdb
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.exe
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerTest\AltusProgrammerTest\obj\Debug\AltusProgrammerTest.pdb

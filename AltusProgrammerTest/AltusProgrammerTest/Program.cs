@@ -13,14 +13,13 @@ namespace AltusProgrammerTest
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
             
-            var consoleService = kernel.Get<IConsoleService>();
             var binaryCountService = kernel.Get<IBinaryCountService>();
 
             while (loop)
             {
-                consoleService.OutputMessage("Enter 'Exit' to Close App");
-                consoleService.OutputMessage("Enter a Decimal under 100");
-                var imput = consoleService.ReadLine();
+                Console.WriteLine("Enter 'Exit' to Close App");
+                Console.WriteLine("Enter a Decimal under 100");
+                var imput = Console.ReadLine();
                 if (imput.ToLower() != "exit")
                 {
                     int num;
@@ -30,22 +29,22 @@ namespace AltusProgrammerTest
                         {
                             try
                             {
-                                consoleService.OutputMessage("Begin Countdown...");
+                                Console.WriteLine("Begin Countdown...");
                                 loop = binaryCountService.NumberCountDown(num);
                             }
                             catch (Exception e)
                             {
-                                consoleService.OutputErrorMessage(e.Message);
+                                 Console.Error.WriteLine(e.Message);
                             }
                         }
                         else
                         {
-                            consoleService.OutputErrorMessage("Entry is not under 100! Try again");
+                             Console.Error.WriteLine("Entry is not under 100! Try again");
                         }
                     }
                     else
                     {
-                        consoleService.OutputErrorMessage("Entry is not a Decimal! Try again");
+                         Console.Error.WriteLine("Entry is not a Decimal! Try again");
                     }
                 }
                 else
