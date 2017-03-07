@@ -1,0 +1,10 @@
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\AltusProgrammerAssignment.DrawApp.exe.config
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\AltusProgrammerAssignment.DrawApp.exe
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\AltusProgrammerAssignment.DrawApp.pdb
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\AltusProgrammerAssignment.Core.dll
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\Ninject.dll
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\AltusProgrammerAssignment.Core.pdb
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\bin\Debug\Ninject.xml
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\obj\Debug\AltusProgrammerAssignment.DrawApp.csprojResolveAssemblyReference.cache
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\obj\Debug\AltusProgrammerAssignment.DrawApp.exe
+C:\Users\jharvey\Documents\GitHub\AltusProgrammerTest\AltusProgrammerAssignment\AltusProgrammerAssignment.DrawApp\obj\Debug\AltusProgrammerAssignment.DrawApp.pdb
