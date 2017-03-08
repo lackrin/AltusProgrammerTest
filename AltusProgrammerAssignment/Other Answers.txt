@@ -1,0 +1,80 @@
+10. Given a list containing over X number of items, you are required to retrieve from that list the items with category “Batman”, “Superman” and “Highlander”.  
+Explain using pseudocode how you would efficiently retrieve those items. 
+Question 10
+/// Not really in Pseudocode, but this is a simple way to retrive a sublist from a larger list.
+
+using System;
+using System.Collections.Generic;
+
+public class Class1
+{
+    public class Items
+    {
+        public string category { get; set; }
+        public string otherstuff { get; set; }
+
+        public Items(string cat, string os)
+        {
+            category = cat;
+            otherstuff = os;
+        }
+    }
+
+    public Class1()
+    {
+        List<Items> SomeList = new List<Items>()
+        {
+            new Items("Batman", "SomeStuff"),
+            new Items("Superman", "SomeStuff"),
+            new Items("HighLander", "SomeStuff"),
+            new Items("Wonder Woman", "SomeStuff"),
+            new Items("Flash", "SomeStuff")
+        };
+
+        List<string> retrieveList = new List<String>() { "batman", "superman", "highlander" };
+        List<Items> resultList = SomeList.FindAll(x => retrieveList.Contains(x.category.ToLower()));
+    }
+}
+
+
+Non-Technical  
+
+1. In your opinion, what are the most important elements of making quality software?  
+
+In my Opinion the most important elements of making Quality Software are
+-Planning
+	Proper planning can make or break software. If the projects aren’t scoped out properly then decisions that are made at the beginning my need to be undone later, or chosen technology may not fit with the scope of the project. This will cause a large decrease in productivity, having to redo large portions of functionality to fix or undo.
+-Peer Review
+	Peer review helps lead to consistency of code, reduces logic issues, prevents bugs, and helps with cross training. Everyone grows when everyone works together
+-Consistency
+	Consistency in code helps with refactoring, tracking of bugs, cross training, making enchantments, and brining on new members.
+-Stability
+	Code that isn’t stable isn’t quality software.
+-Satisfies the Client
+	In the end, the software must meet the needs of the client, no matter how great you programed a piece of software, if the it doesn’t fit the client’s needs then it is worthless. 
+
+2. In your opinion, what are the most important traits in a good development team?  
+In my opinion there is only two important traits in a good development team, and that is respect and cooperation. 
+Any team that can get along well and respects each other is going to succeed, regardless of skills and abilities. 
+Working together you can all learn the best way to move forward, you can help each other, one using their strengths to raise up the team to a new level. 
+Like any team, cooperation is the key to success and you cannot cooperate if you do not respect each other.   
+
+3. From a high level, describe your understanding of what a software development process is and its cornerstones.  
+There can be many software development process, but at my current job we use the Agile process and SOLID methodology is the cornerstone of our development.
+In Agile we focus all work into easily consumable entities that we call stories. Several stories should be able to be completed within a 2-week iteration, and at the end of that iteration we should have a noticeable amount of work to demo to the Client. 
+Now with the actual development we use SOLID (single responsibility, open-closed, Liskov substitution, interface segregation and dependency inversion) This allows for consistent and maintainable code 
+ 
+4. What is the role of testing in a development team?  
+There are several layers of testing on a Development team. 
+-First there is developer testing, the basis of designing a solution and testing that it functions.
+-Then there are Unit Tests, automated tests designed by the developer to automatically test a wide range of tests for each method in an application.
+-Next is Coded CI tests, these test the build process and the run all tests in a given project. Making sure that nothing has been broken by the developer.
+-After that there is the QA testing. This can be done by either users of the system or a dedicated QA team.
+-Finally there is UA testing and regression testing, make sure all functionally works from a user perspective. You run though all your systems functionally from beginning to end, covering all possible scenarios. This is the last test before release to prod.
+-After the release to prod, you should do the last step and smoke test the functionally, this is a quick test to verify everything went correct with the deployment.
+	
+5. In your opinion, what are code reviews, unit testing, and continuous integration? What role do they play in software development positively or negatively, when, and how are they used. Express your ideas as you see fit.  
+Code Reviews – after completion of a give set of work have a peer review your code. This is an opportunity for them to point out any design decisions that they do not agree with or find any obvious bugs that you may miss. It’s also good for you to go over everything that has been done and double check your own logic. It’s a great cross training opportunity and a chance for both developers to grow their skills
+Unit testing – Any method that does business logic should be unit tested. In TDD you would create a unit test before writing any code, this allows the developer to plan what they are going to write, and what the edge cases are for the code they need to create. It helps with planning logical code. In my experience TDD isn’t practiced in actually business development, though its logic is sound.
+Continuous Integration (CI) – Checking code into a central repository. This should be done often to prevent large merge conflicts. It’s also a great time to run all the Unit Tests to make sure your code didn’t break other tests that are related to your code, but separate form it. CI is essential to development for teams of any size, and it is easy to implement with modern tools.
+
